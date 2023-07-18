@@ -181,3 +181,7 @@ def flashdrought(n,a,b,drt):
     else:
         b = 0
 
+## main function
+b = [0] * 4
+drt = [0]*len(sm)
+flashdrought(len(sm),sm,b,drt)
